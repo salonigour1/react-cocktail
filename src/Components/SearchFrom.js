@@ -24,13 +24,13 @@ function SearchFrom() {
           Search your favorite cocktails
         </label>
         <br />
-        <input
+        <inputgit
           type="text"
           id="name"
           ref={searchValue}
           onChange={searchCocktail}
           placeholder="Enter cocktail name..."
-        ></input>
+        ></inputgit>
       </form>
     </section>
   );
