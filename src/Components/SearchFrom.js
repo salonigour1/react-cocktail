@@ -21,7 +21,6 @@ function SearchFrom() {
     <section className="search">
       <form className="search-form" onSubmit={handleSubmit}>
         <label htmlFor="name" className="search-label">
-          {" "}
           Search your favorite cocktails
         </label>
         <br />
